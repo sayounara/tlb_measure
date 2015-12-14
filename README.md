@@ -3,8 +3,8 @@
 hexin@hexin-Vostro-23-3340:~/workspace/tlb_measure$ ./tlb_bench -r100000 -n8000
 # running on CPU 3; pinning to that CPU
 # page size is 4096
-1	average nanoseconds per access:16
-2	average nanoseconds per access:17
+1	average nanoseconds per access:16<br>
+2	average nanoseconds per access:17<br>
 4	average nanoseconds per access:16
 8	average nanoseconds per access:16
 16	average nanoseconds per access:18
