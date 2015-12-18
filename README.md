@@ -1,3 +1,7 @@
+Figure 1:Discovering TLB SIzes and Miss Costs
+====
+![Aaron Swartz](https://github.com/sayounara/tlb_measure/raw/master/data/tlb_bench.png)
+
 在我的一体机上运行数据（画的图的数据都是一体机上的运行数据）
 ====
 hexin@hexin-Vostro-23-3340:~/workspace/tlb_measure$ ./tlb_bench -r100000 -n8000
