@@ -1,6 +1,7 @@
 Figure 1:Discovering TLB SIzes and Miss Costs
 ====
-![Aaron Swartz](https://github.com/sayounara/tlb_measure/raw/master/data/tlb_bench.png)
+![Aaron Swartz](https://github.com/sayounara/tlb_measure/raw/master/data/tlb_bench.png)<br>
+###从图中可以看出，当访问比较少的页数（低于64），平均访问时间大约是17纳秒。但访问64个页或者更多的时候，平均访问时间上升到大约26纳秒。当访问的页超出512或者更多，最终上升到大约80纳秒(访问（这个时候已经要从内存访问页表啦）。从这些数据中，我们可以推断出这个处理器有一个二级TLB结构；第一级相对比较少（大约能容纳64到128个条目）；第二级TLB相对更大些但访问速度更慢些（能够容纳大约512个条目）。总得来看，在第一级TLB命中和TLB缺失之间的性能差距是相当大的。<br>
 
 在我的一体机上运行数据（画的图的数据都是一体机上的运行数据）
 ====
